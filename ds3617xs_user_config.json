@@ -1,0 +1,16 @@
+{
+    "extra_cmdline": {
+        "pid": "0x0CD1",
+        "vid": "0x21C4",
+        "sn": "1930ODN175700"
+        "mac1": "0011320F00ED"
+        "mac2": "001132A9D831"
+        "mac3": "001132A9D832"
+        "mac4": "001132A9D833"
+        "mac5": "001132A9D834"
+        "mac6": "001132A9D835"
+    },
+    "synoinfo": {},
+    "ramdisk_copy": {},
+    "extensions": []
+}
