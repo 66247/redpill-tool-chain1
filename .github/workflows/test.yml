@@ -68,10 +68,10 @@ jobs:
           sed -i -e 's/0011323D47F7"/&,\n\t"mac2": "001132A9D831",\n\t"netif_num": 6/' ${{matrix.platform}}_user_config.json
 
           # 添加第二张网卡mac并设置网卡数
-          sed -i -e 's/0011320F00ED"/&,\n\t"mac3": "001132A9D832",\n\t"netif_num": 6/' ${{matrix.platform}}_user_config.json
-          sed -i -e 's/0011320F00ED"/&,\n\t"mac4": "001132A9D833",\n\t"netif_num": 6/' ${{matrix.platform}}_user_config.json
-          sed -i -e 's/0011320F00ED"/&,\n\t"mac5": "001132A9D834",\n\t"netif_num": 6/' ${{matrix.platform}}_user_config.json
-          sed -i -e 's/0011320F00ED"/&,\n\t"mac6": "001132A9D835",\n\t"netif_num": 6/' ${{matrix.platform}}_user_config.json
+          sed -i -e 's/0011320F00ED"/&,\n\t"mac3": "001132A9D832", ${{matrix.platform}}_user_config.json
+          sed -i -e 's/0011320F00ED"/&,\n\t"mac4": "001132A9D833", ${{matrix.platform}}_user_config.json
+          sed -i -e 's/0011320F00ED"/&,\n\t"mac5": "001132A9D834", ${{matrix.platform}}_user_config.json
+          sed -i -e 's/0011320F00ED"/&,\n\t"mac6": "001132A9D835", ${{matrix.platform}}_user_config.json
           
 
 
